@@ -6,7 +6,7 @@ const app = express();
 app.use(cors()); // Enables CORS to allow requests from other origins (like your Flutter app)
 
 // Replace with your MongoDB Atlas URI
-const uri = 'mongodb+srv://sumule:Polaris%2A182@cluster0.fec7h.mongodb.net/';
+const uri = 'mongodb+srv://<id>:<Password>@cluster0.fec7h.mongodb.net/';
 const client = new MongoClient(uri);
 
 // MongoDB Database Reference
